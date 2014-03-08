@@ -1,0 +1,5 @@
+node_modules
+npmjs.org
+couchdb
+*.log
+*.lock

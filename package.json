@@ -1,0 +1,21 @@
+{
+  "name": "npm-awesome-local",
+  "version": "0.5.0",
+  "description": "",
+  "main": "./lib/npm-awesome-local.js",
+  "author": {
+    "name": "Alex Gorbatchev",
+    "email": "alex.gorbatchev@gmail.com"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexgorbatchev/npm-awesome-local.git"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "dependencies": {
+    "kappa": "~0.14.3"
+  }
+}
