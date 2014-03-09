@@ -5,7 +5,7 @@ A private NPM registry running on localhost that falls back to public. Requires 
 [![Dependency status](https://david-dm.org/alexgorbatchev/npm-private.png)](https://david-dm.org/alexgorbatchev/npm-private)
 [![devDependency Status](https://david-dm.org/alexgorbatchev/npm-private/dev-status.png)](https://david-dm.org/alexgorbatchev/generator-coffee-module#info=devDependencies)
 
-[[NPM](https://nodei.co/npm/generator-coffee-module.png?downloads=true)](https://npmjs.org/package/npm-private)
+[[NPM](https://nodei.co/npm/npm-private.png?downloads=true)](https://npmjs.org/package/npm-private)
 
 ## Installation
 
