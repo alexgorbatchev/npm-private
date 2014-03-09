@@ -15,7 +15,7 @@ fi
 
 start()
 {
-  echo $"Starting proxy..."
+  echo "Starting proxy..."
   $COMMAND $OPT > logs/proxy.log &
   echo $! > $LOCK
 }
@@ -23,7 +23,7 @@ start()
 stop()
 {
   PID=$(cat $LOCK)
-  echo $"Stopping proxy: $PID"
+  echo "Stopping proxy: $PID"
   kill $PID
   rm -f $LOCK
 }

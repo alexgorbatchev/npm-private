@@ -18,7 +18,7 @@ fi
 
 start()
 {
-  echo $"Starting couchdb..."
+  echo "Starting couchdb..."
   $COMMAND $OPT > /dev/null &
   echo $! > $LOCK
 }
@@ -26,7 +26,7 @@ start()
 stop()
 {
   PID=$(cat $LOCK)
-  echo $"Stopping couchdb: $PID"
+  echo "Stopping couchdb: $PID"
   kill $PID
   rm -f $LOCK
 }
