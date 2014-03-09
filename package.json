@@ -7,7 +7,8 @@
     "name": "Alex Gorbatchev",
     "email": "alex.gorbatchev@gmail.com"
   },
-  "scripts": {
+  "bin": {
+    "npm-awesome-local": "./npm-awesome-local.sh"
   },
   "repository": {
     "type": "git",
