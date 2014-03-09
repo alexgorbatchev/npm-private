@@ -23,7 +23,15 @@ fi
 
 install()
 {
+  ./couchdb.sh start
+
+  # TODO find a better way to wait for couch to start
+  sleep 3
+
   ./install.sh
+  ./couchdb.sh stop
+
+  echo "Run: $(basename $0) start"
 }
 
 start()
