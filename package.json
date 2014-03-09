@@ -1,21 +1,20 @@
 {
-  "name": "npm-awesome-local",
+  "name": "npm-private",
   "version": "0.5.0",
-  "description": "",
-  "main": "./lib/npm-awesome-local.js",
+  "description": "Run a local NPM registry for private packages with fallback to publich registry.",
   "author": {
     "name": "Alex Gorbatchev",
     "email": "alex.gorbatchev@gmail.com"
   },
   "bin": {
-    "npm-awesome-local": "./npm-awesome-local.sh"
+    "npm-private": "./npm-private.sh"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/alexgorbatchev/npm-awesome-local.git"
+    "url": "git://github.com/alexgorbatchev/npm-private.git"
   },
   "license": "MIT",
-  "keywords": [],
+  "keywords": ["npm", "private", "server", "proxy", "couchdb"],
   "dependencies": {
     "kappa": "~0.14.3"
   }
