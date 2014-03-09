@@ -1,13 +1,18 @@
 #!/bin/sh
 
 usage() {
-  echo "Usage: $0 {start|stop|restart}"
+  echo "Usage: $0 {install|start|stop|restart}"
   exit 0
 }
 
 if [ $# != 1 ]; then
   usage
 fi
+
+install()
+{
+  ./install.sh
+}
 
 start()
 {
@@ -22,6 +27,9 @@ stop()
 }
 
 case "$1" in
+  install)
+    install
+    ;;
   start)
     start
     ;;
