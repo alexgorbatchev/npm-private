@@ -35,6 +35,10 @@ Before you can publish locally, you need to create and login with a local NPM us
     $ npm login
     ...
 
+## Limitations
+
+Currently this is more of a proof of concept module and doesn't support any configuration nor does it do any error checking. If it seems like there's future for this module, it will be a good idea to add those things.
+
 # License
 
 The MIT License (MIT)
