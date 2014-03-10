@@ -16,7 +16,17 @@ A private NPM registry running on localhost that falls back to public. Requires 
 ## Usage Example
 
     $ npm-private start
-    $ npm --registry=http://localhost:5986 info npm
+
+    $ npm info npm
+    ...
+
+    $ npm config get registry
+    http://localhost:5986
+
+    $ npm-private stop
+
+    $ npm config get registry
+    https://registry.npmjs.org/
 
 # License
 
