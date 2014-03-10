@@ -28,6 +28,13 @@ A private NPM registry running on localhost that falls back to public. Requires 
     $ npm config get registry
     https://registry.npmjs.org/
 
+## Publishing Private Modules
+
+Before you can publish locally, you need to create and login with a local NPM user. If you create a user with the same credential locally as you have in the public registry you won't have to relogin every time when you toggle private/public.
+
+    $ npm login
+    ...
+
 # License
 
 The MIT License (MIT)
