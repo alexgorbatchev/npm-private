@@ -1,6 +1,6 @@
 {
   "name": "npm-private",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Run a local NPM registry for private packages with fallback to publich registry.",
   "author": {
     "name": "Alex Gorbatchev",
